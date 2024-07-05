@@ -30,7 +30,7 @@ export default function Page() {
         </div>
         <div
           id="contact"
-          className="flex h-screen snap-start flex-col items-start justify-start p-4 pt-[160px] lg:items-start lg:p-8 lg:pt-8"
+          className="flex h-screen snap-start flex-col items-start justify-start p-4 pt-[180px] lg:items-start lg:p-8 lg:pt-8"
         >
           <ContactBox />
         </div>
