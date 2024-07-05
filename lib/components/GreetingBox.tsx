@@ -19,13 +19,13 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
           ) to bring technology to the accounting function for startups across the country.
         </p>
         <p>
-          Now, I&apos;m hyperfocused on turning Hoboken into a beacon of innovation & operational
+          Now, I&apos;m hyperfocused on helping Hoboken become a beacon of innovation & operational
           excellence — outshining that noisy city across the Hudson.
         </p>
         <p>
-          Whether you&apos;re a cozy cafe on Washington, a family-owned boutique on 14th, a global
-          franchise with offices on River, or a unicorn-in-progress born in a Stevens dormroom — I
-          am eager to become an asset to your team.
+          Whether you&apos;re a staple of Washington Street, a cozy cafe on 14th, a global franchise with
+          offices on River, or a unicorn-in-progress born in a Stevens dormroom — I am eager to
+          become an asset to your team.
         </p>
         <p>Let&apos;s build together!</p>
       </ScrollShadow>
