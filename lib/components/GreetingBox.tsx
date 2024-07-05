@@ -8,7 +8,7 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
       <ScrollShadow className="w-full grow space-y-4 p-6">
         <p>Hello Hoboken!</p>
         <p>
-          I am a software engineer, managerial accountant, data wizard, and productivity guru -
+          I am a software engineer, managerial accountant, data wizard, and productivity guru
           providing services exclusivley for our small but mighty city.
         </p>
         <p>
@@ -24,8 +24,8 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
         </p>
         <p>
           Whether you&apos;re a cozy cafe on Washington, a family-owned boutique on 14th, a global
-          franchise with offices on River, or a unicorn-in-progress born in the dorms of Stevens — I
-          am eager to become a part of your team.
+          franchise with offices on River, or a unicorn-in-progress born in a Stevens dormroom — I
+          am eager to become an asset to your team.
         </p>
         <p>Let&apos;s build together!</p>
       </ScrollShadow>
