@@ -23,9 +23,9 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
           excellence — outshining that noisy city across the Hudson.
         </p>
         <p>
-          Whether you&apos;re a staple of Washington Street, a cozy cafe on 14th, a global franchise with
-          offices on River, or a unicorn-in-progress born in a Stevens dormroom — I am eager to
-          become an asset to your team.
+          Whether you&apos;re a staple of Washington Street, a cozy cafe on 14th, a global franchise
+          with offices on River, or a unicorn-in-progress born in a Stevens dormroom — I am eager to
+          join your team.
         </p>
         <p>Let&apos;s build together!</p>
       </ScrollShadow>
