@@ -1,4 +1,4 @@
-import { Avatar, Card, CardBody, Image, Link, ScrollShadow } from "@nextui-org/react"
+import { Avatar, Link, ScrollShadow } from "@nextui-org/react"
 import { ClassNameValue, twMerge } from "tailwind-merge"
 import NextLink from "next/link"
 import Box from "./Box"
