@@ -39,7 +39,7 @@ export default function ServicesSection() {
     {
       title: "Digital Customer Experience",
       icon: mdiHandHeart,
-      content: "Loyalty programs, landing pages, gift cards, and CRM platforms.",
+      content: "Loyalty & gift card programs, customer portals, and CRM platforms.",
     },
     {
       title: "AI Implementations",
