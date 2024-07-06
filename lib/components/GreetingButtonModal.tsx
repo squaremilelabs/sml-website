@@ -35,14 +35,14 @@ export default function GreetingButtonModal({ className }: { className?: ClassNa
         scrollBehavior="inside"
         placement="top-center"
       >
-        <ModalContent className="h-full bg-background">
+        <ModalContent className="h-full bg-background p-0">
           {() => (
             <>
-              <ModalHeader />
-              <ModalBody className="h-full shrink-0 grow">
+              {/* <ModalHeader /> */}
+              <ModalBody className="h-full shrink-0 grow px-0 py-0">
                 <GreetingBox className="h-full bg-background shadow-none" />
               </ModalBody>
-              <ModalFooter />
+              {/* <ModalFooter /> */}
             </>
           )}
         </ModalContent>
