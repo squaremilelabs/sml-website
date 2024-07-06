@@ -1,19 +1,29 @@
-"use client"
-
 import "lib/styles/global.css"
 import React from "react"
-import { NextUIProvider } from "@nextui-org/react"
-import { ThemeProvider as NextThemeProvider } from "next-themes"
-import { twMerge } from "tailwind-merge"
+import { Metadata } from "next"
 import { fontsClassName } from "lib/styles/fonts"
+import StyleProvider from "lib/styles/provider"
+
+export const metadata: Metadata = {
+  title: "Square Mile Labs",
+  description: "Innovative Services for Hoboken, NJ",
+  keywords: [
+    "Hoboken",
+    "Services",
+    "Technology",
+    "Accounting",
+    "Square Mile Labs",
+    "SML",
+    "Engineer",
+    "Data",
+  ],
+}
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning className={fontsClassName}>
       <body>
-        <NextUIProvider className={twMerge("flex h-screen w-screen flex-col font-sans")}>
-          <NextThemeProvider attribute="class">{children}</NextThemeProvider>
-        </NextUIProvider>
+        <StyleProvider>{children}</StyleProvider>
       </body>
     </html>
   )

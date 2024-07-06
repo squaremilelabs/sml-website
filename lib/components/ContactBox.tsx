@@ -28,31 +28,14 @@ export default function ContactBox() {
       <Divider />
       <div className="text-sm">
         <p className="font-medium">e@squaremilelabs.com</p>
+        <p className="font-medium">973-699-5864</p>
         <p>5 Marine View Plaza, Suite 402</p>
         <p>Hoboken, NJ 07030</p>
       </div>
       <Divider />
-      <form className="flex flex-col items-stretch space-y-2" onSubmit={formik.handleSubmit}>
-        <p className="text-sm">Enter your email and I&apos;ll reach out</p>
-        <Input
-          type="email"
-          label="Email"
-          variant="bordered"
-          classNames={{ inputWrapper: "bg-background" }}
-          {...formik.getFieldProps("email")}
-          isInvalid={!!formik.touched.email && !!formik.errors.email}
-          errorMessage={formik.touched.email ? formik.errors.email : null}
-        />
-        <Button
-          type="submit"
-          color="primary"
-          variant="flat"
-          className="font-bold"
-          isDisabled={!formik.isValid}
-        >
-          Submit
-        </Button>
-      </form>
+      <p className="text-sm">
+        I&apos;m best reached via email or text message. Looking forward to connecting!
+      </p>
     </Box>
   )
 }
