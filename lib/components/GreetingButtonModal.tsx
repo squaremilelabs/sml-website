@@ -7,6 +7,7 @@ import {
   ModalContent,
   ModalFooter,
   ModalHeader,
+  ScrollShadow,
   useDisclosure,
 } from "@nextui-org/react"
 import { ClassNameValue, twMerge } from "tailwind-merge"
@@ -31,15 +32,16 @@ export default function GreetingButtonModal({ className }: { className?: ClassNa
         isOpen={isOpen}
         onOpenChange={onOpenChange}
         size="full"
-        classNames={{ base: "bg-background/30 backdrop-blur-sm" }}
+        classNames={{ base: "bg-background/30 backdrop-blur-sm max-h-screen" }}
         backdrop="transparent"
+        placement="top"
       >
         <ModalContent>
           {() => (
             <>
               <ModalHeader />
-              <ModalBody>
-                <GreetingBox className="bg-background" />
+              <ModalBody className="h-full shrink-0 grow">
+                <GreetingBox className="h-full bg-background" />
               </ModalBody>
               <ModalFooter />
             </>
