@@ -6,9 +6,9 @@ import {
   mdiBriefcase,
   mdiChartArc,
   mdiChartGantt,
+  mdiHandHeart,
   mdiOfficeBuilding,
   mdiRobot,
-  mdiRobotHappy,
   mdiRocketLaunch,
 } from "@mdi/js"
 import { Link, ScrollShadow } from "@nextui-org/react"
@@ -35,6 +35,11 @@ export default function ServicesSection() {
       title: "FP&A",
       icon: mdiChartArc,
       content: "Robust financial models & operating budgets.",
+    },
+    {
+      title: "Digital Customer Experience",
+      icon: mdiHandHeart,
+      content: "Loyalty programs, landing pages, gift cards, and CRM platforms.",
     },
     {
       title: "AI Implementations",

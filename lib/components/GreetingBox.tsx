@@ -35,7 +35,7 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
           </Link>{" "}
           I provide are based on the skillsets and passions I&apos;ve accumulated from prior
           projects & consulting engagements performed with high success. Whether you&apos;re looking
-          for a one-time project or an ongoing partnership, I&apos;m at your service!
+          for a one-time project or a long-term business partner, I&apos;m at your service!
         </p>
       </ScrollShadow>
       <div className="flex items-center space-x-2 p-4">
