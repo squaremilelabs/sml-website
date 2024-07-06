@@ -10,9 +10,9 @@ export default function Page() {
   return (
     <main className="flex h-full w-full snap-y snap-mandatory flex-col space-y-4 overflow-auto transition-all lg:flex-row lg:space-x-8 lg:space-y-0">
       {/* LOGO & GREETING BOX */}
-      <section className="sticky top-0 z-50 flex h-fit w-full shrink-0 flex-col space-y-2 self-center p-4 lg:h-full lg:w-[500px] lg:space-y-4 lg:p-8 lg:pr-0">
+      <section className="sticky top-0 z-50 flex h-fit max-h-screen w-full shrink-0 flex-col space-y-2 self-center p-4 lg:h-full lg:w-[500px] lg:space-y-4 lg:p-8 lg:pr-0">
         <LogoBox />
-        <GreetingBox className="hidden lg:flex" />
+        <GreetingBox className="hidden max-h-full grow overflow-auto lg:flex" />
         <GreetingButtonModal className="flex lg:hidden" />
       </section>
       {/*  */}

@@ -31,17 +31,16 @@ export default function GreetingButtonModal({ className }: { className?: ClassNa
       <Modal
         isOpen={isOpen}
         onOpenChange={onOpenChange}
-        size="full"
-        classNames={{ base: "bg-background/30 backdrop-blur-sm max-h-screen" }}
-        backdrop="transparent"
-        placement="top"
+        backdrop="blur"
+        scrollBehavior="inside"
+        placement="top-center"
       >
-        <ModalContent>
+        <ModalContent className="h-full bg-background">
           {() => (
             <>
               <ModalHeader />
               <ModalBody className="h-full shrink-0 grow">
-                <GreetingBox className="h-full bg-background" />
+                <GreetingBox className="h-full bg-background shadow-none" />
               </ModalBody>
               <ModalFooter />
             </>

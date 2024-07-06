@@ -27,6 +27,11 @@ export default function ServicesSection() {
       content: "Monthly bookkeeping & day-to-day AP / AR management.",
     },
     {
+      title: "Data Analytics",
+      icon: mdiChartGantt,
+      content: "Data engineering & report development for business intelligence.",
+    },
+    {
       title: "FP&A",
       icon: mdiChartArc,
       content: "Robust financial models & operating budgets.",
@@ -40,11 +45,6 @@ export default function ServicesSection() {
       title: "APIs & Automations",
       icon: mdiAutoMode,
       content: "Backend automations to streamline your tech stack.",
-    },
-    {
-      title: "Data Analytics",
-      icon: mdiChartGantt,
-      content: "Data engineering & report development for business intelligence.",
     },
     {
       title: "MVP Development",
