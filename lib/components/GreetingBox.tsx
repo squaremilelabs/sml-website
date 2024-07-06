@@ -33,9 +33,9 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
           <Link as={NextLink} href="/#services" className="font-semibold">
             services
           </Link>{" "}
-          I provide are based on the skillsets and passions I&apos;ve accumulated from prior
-          projects & consulting engagements performed with high success. Whether you&apos;re looking
-          for a one-time project or a long-term business partner, I&apos;m at your service!
+          I provide are based on the knowledge, skills, and passions I&apos;ve accumulated from
+          prior projects & consulting engagements performed with high success. Whether you&apos;re
+          looking for a one-time project or a long-term business partner, I&apos;m at your service!
         </p>
       </ScrollShadow>
       <div className="flex items-center space-x-2 p-4">
