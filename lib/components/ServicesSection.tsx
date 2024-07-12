@@ -61,23 +61,6 @@ export default function ServicesSection() {
       icon: mdiBriefcase,
       content: "Tool & workflow implementations for operational excellence.",
     },
-    {
-      title: "Hoboken Office Space",
-      icon: mdiOfficeBuilding,
-      content: (
-        <p>
-          Short-term office space at{" "}
-          <Link
-            href="https://maps.app.goo.gl/12DtSA8DDi6mh3px9"
-            className="text-sm"
-            target="_blank"
-          >
-            5 Marine View Plaza
-          </Link>
-          .
-        </p>
-      ),
-    },
   ]
 
   return (
