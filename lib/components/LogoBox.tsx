@@ -1,4 +1,4 @@
-import { Card, CardBody, Image } from "@nextui-org/react"
+import { Image } from "@nextui-org/react"
 import { ClassNameValue, twMerge } from "tailwind-merge"
 import Box from "./Box"
 
@@ -13,7 +13,7 @@ export default function LogoBox({ className }: { className?: ClassNameValue }) {
       <div>
         <h1 className="text-2xl font-semibold lg:text-3xl">Square Mile Labs</h1>
         <h2 className="text-balance text-xs lg:text-sm">
-          Innovations & Excellence for{" "}
+          Innovation & Excellence for{" "}
           <span className="font-semibold text-primary">Hoboken, NJ</span>
         </h2>
       </div>
