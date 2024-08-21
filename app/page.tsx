@@ -5,6 +5,7 @@ import ScrollToButton from "lib/components/ScrollToButton"
 import ServicesSection from "lib/components/ServicesSection"
 import ContactBox from "lib/components/ContactBox"
 import GreetingButtonModal from "lib/components/GreetingButtonModal"
+import Box from "lib/components/Box"
 
 export default function Page() {
   return (
@@ -26,6 +27,23 @@ export default function Page() {
           className="flex h-screen w-full snap-start flex-col p-0 pt-[160px] lg:pt-0"
         >
           <ServicesSection />
+          <ScrollToButton scrollToId="projects" label="Projects" />
+        </div>
+        <div
+          id="projects"
+          className="flex h-screen w-full snap-start flex-col items-center p-0 pt-[160px] lg:pt-0"
+        >
+          <div className="item-center flex h-full w-full flex-col items-center justify-center p-8">
+            <Box>
+              <p className="max-w-96 text-center">
+                🥷 SML&apos;s{" "}
+                <span className="font-semibold text-primary">open source projects</span> are
+                (ironically) in stealth mode as of Aug 2024
+              </p>
+              <br />
+              <p className="text-center text-sm">Please reach out with your curiosity</p>
+            </Box>
+          </div>
           <ScrollToButton scrollToId="contact" label="Contact" />
         </div>
         <div
