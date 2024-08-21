@@ -10,11 +10,11 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
         <strong className="font-semibold">Hi there!</strong>
         <p>
           I am a software engineer, business accountant, data wizard, project executor and
-          productivity hacker developing{" "}
-          <span className="font-medium text-primary">open source projects</span> with & for the
-          public, and providing{" "}
+          productivity hacker providing{" "}
           <span className="font-medium text-primary">fractional services</span> for an intimate
-          circle of founders.
+          circle of founders, and developing{" "}
+          <span className="font-medium text-primary">open source projects</span> with & for the
+          public.
         </p>
         <p>
           Before founding Square Mile Labs, I co-founded an accounting & technology firm (
@@ -34,8 +34,9 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
           set a new standard for work.
         </p>
         <p>
-          If you&apos;re looking for a partner in solving your toughest problems, streamlining your
-          operations, or pushing your ideas from zero to one, I&apos;d love to hear from you.
+          If you&apos;re looking for a high-touch partner in solving your toughest problems,
+          streamlining your operations, or pushing your ideas from zero to one, I&apos;d love to
+          hear from you.
         </p>
         <p>Let&apos;s build together!</p>
       </ScrollShadow>
