@@ -6,7 +6,7 @@ import StyleProvider from "lib/styles/provider"
 
 export const metadata: Metadata = {
   title: "Square Mile Labs",
-  description: "Innovation & Excellence for Hoboken, NJ",
+  description: "Tech/Ops Consulting & Development",
   keywords: [
     "Hoboken",
     "Services",

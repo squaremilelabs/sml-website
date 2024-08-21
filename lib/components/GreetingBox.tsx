@@ -7,36 +7,37 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
   return (
     <Box className={twMerge("flex h-full w-full flex-col items-stretch p-0", className)}>
       <ScrollShadow className="w-full grow space-y-4 p-6">
-        <p className="font-semibold">Hello Hoboken!</p>
+        <strong className="font-semibold">Hi there!</strong>
         <p>
-          I am a software engineer, managerial accountant, data wizard, and productivity guru
-          providing services exclusivley for our small but mighty city.
+          I am a software engineer, business accountant, data wizard, project executor and
+          productivity hacker developing{" "}
+          <span className="font-medium text-primary">open source projects</span> with & for the
+          public, and providing{" "}
+          <span className="font-medium text-primary">fractional services</span> for an intimate
+          circle of founders.
         </p>
         <p>
-          Before starting SML, I co-founded a tech-forward accounting firm (
-          <Link target="_blank" href="https://fureyfs.com" className="font-semibold">
+          Before founding Square Mile Labs, I co-founded an accounting & technology firm (
+          <Link
+            target="_blank"
+            href="https://fureyfs.com"
+            className="font-medium text-default-500 underline"
+          >
             Furey
           </Link>
-          ; also in Hoboken), and consulted for high-growth startups across the country.
+          ), consulting for high-growth startups across the country, and developing internal
+          software for our white-glove services.
         </p>
         <p>
-          Now, I&apos;m hyperfocused on helping Hoboken become a beacon of innovation & operational
-          excellence — outshining that noisy city across the Hudson.
+          I&apos;ve since founded SML to become an essential resource for innovations and
+          operational excellence — designing & developing tools, technologies, and processes which
+          set a new standard for work.
         </p>
         <p>
-          Whether you&apos;re a staple of Washington Street, a cozy cafe on 14th, a global franchise
-          with offices on River, or a unicorn-in-progress born in a Stevens dormroom — I am eager to
-          become an extension of your team.
+          If you&apos;re looking for a partner in solving your toughest problems, streamlining your
+          operations, or pushing your ideas from zero to one, I&apos;d love to hear from you.
         </p>
-        <p>
-          The{" "}
-          <Link as={NextLink} href="/#services" className="font-semibold">
-            services
-          </Link>{" "}
-          I provide are based on the knowledge, skills, and passions I&apos;ve accumulated from
-          prior projects & consulting engagements performed with high success. Whether you&apos;re
-          looking for a one-time project or a long-term business partner, I&apos;m at your service!
-        </p>
+        <p>Let&apos;s build together!</p>
       </ScrollShadow>
       <div className="flex items-center space-x-2 p-4">
         <Avatar src="/e-headshot.png" />
