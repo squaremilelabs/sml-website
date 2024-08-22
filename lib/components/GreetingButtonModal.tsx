@@ -1,15 +1,4 @@
-import {
-  Avatar,
-  Button,
-  Image,
-  Modal,
-  ModalBody,
-  ModalContent,
-  ModalFooter,
-  ModalHeader,
-  ScrollShadow,
-  useDisclosure,
-} from "@nextui-org/react"
+import { Avatar, Button, Modal, ModalBody, ModalContent, useDisclosure } from "@nextui-org/react"
 import { ClassNameValue, twMerge } from "tailwind-merge"
 import GreetingBox from "./GreetingBox"
 
