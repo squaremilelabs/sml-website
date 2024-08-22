@@ -33,7 +33,7 @@ export default function Page() {
           id="projects"
           className="flex h-screen w-full snap-start flex-col items-center p-0 pt-[160px] lg:pt-0"
         >
-          <div className="item-center flex h-full w-full flex-col items-start justify-start p-8">
+          <div className="item-center flex h-full w-full flex-col items-start justify-start px-4 py-8">
             <Box>
               <p className="max-w-96">
                 🥷 SML&apos;s{" "}

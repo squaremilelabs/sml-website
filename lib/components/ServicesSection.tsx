@@ -7,11 +7,10 @@ import {
   mdiChartArc,
   mdiChartGantt,
   mdiHandHeart,
-  mdiOfficeBuilding,
   mdiRobot,
   mdiRocketLaunch,
 } from "@mdi/js"
-import { Link, ScrollShadow } from "@nextui-org/react"
+import { ScrollShadow } from "@nextui-org/react"
 import Box from "./Box"
 
 export default function ServicesSection() {
@@ -21,10 +20,11 @@ export default function ServicesSection() {
       icon: mdiApplicationCog,
       content: "Custom-built SaaS apps for your business ops.",
     },
+
     {
-      title: "Accounting",
-      icon: mdiBank,
-      content: "Monthly bookkeeping & day-to-day AP / AR management.",
+      title: "APIs & Automations",
+      icon: mdiAutoMode,
+      content: "Backend automations to streamline your tech stack.",
     },
     {
       title: "Data Analytics",
@@ -32,24 +32,9 @@ export default function ServicesSection() {
       content: "Data engineering & report development for business intelligence.",
     },
     {
-      title: "FP&A",
-      icon: mdiChartArc,
-      content: "Robust financial models & operating budgets.",
-    },
-    {
-      title: "Digital Customer Experience",
-      icon: mdiHandHeart,
-      content: "Loyalty & gift card programs, customer portals, and CRM platforms.",
-    },
-    {
       title: "AI Implementations",
       icon: mdiRobot,
       content: "Bespoke AI solutions built with OpenAI.",
-    },
-    {
-      title: "APIs & Automations",
-      icon: mdiAutoMode,
-      content: "Backend automations to streamline your tech stack.",
     },
     {
       title: "MVP Development",
@@ -60,6 +45,21 @@ export default function ServicesSection() {
       title: "Productivity Improvement",
       icon: mdiBriefcase,
       content: "Tool & workflow implementations for operational excellence.",
+    },
+    {
+      title: "Accounting",
+      icon: mdiBank,
+      content: "Monthly bookkeeping & day-to-day AP / AR management.",
+    },
+    {
+      title: "FP&A",
+      icon: mdiChartArc,
+      content: "Robust financial models & operating budgets.",
+    },
+    {
+      title: "Digital Customer Experience",
+      icon: mdiHandHeart,
+      content: "Loyalty & gift card programs, customer portals, and CRM platforms.",
     },
   ]
 
