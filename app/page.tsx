@@ -33,15 +33,15 @@ export default function Page() {
           id="projects"
           className="flex h-screen w-full snap-start flex-col items-center p-0 pt-[160px] lg:pt-0"
         >
-          <div className="item-center flex h-full w-full flex-col items-center justify-center p-8">
+          <div className="item-center flex h-full w-full flex-col items-start justify-start p-8">
             <Box>
-              <p className="max-w-96 text-center">
+              <p className="max-w-96">
                 🥷 SML&apos;s{" "}
                 <span className="font-semibold text-primary">open source projects</span> are
-                (ironically) in stealth mode as of Aug 2024
+                (ironically) in stealth mode as of August 2024.
               </p>
               <br />
-              <p className="text-center text-sm">Please reach out with your curiosity</p>
+              <p className="text-sm">Please reach out with your curiosity.</p>
             </Box>
           </div>
           <ScrollToButton scrollToId="contact" label="Contact" />
