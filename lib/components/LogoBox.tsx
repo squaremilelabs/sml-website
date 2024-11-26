@@ -4,7 +4,7 @@ import Box from "./Box"
 
 export default function LogoBox({ className }: { className?: ClassNameValue }) {
   return (
-    <Box className={twMerge("flex flex-row items-center space-x-4 p-4 shadow-medium", className)}>
+    <Box className={twMerge("flex flex-row items-center space-x-4 p-4", className)}>
       <Image
         alt="Square Mile Labs"
         src="/sml-gold-logo.png"

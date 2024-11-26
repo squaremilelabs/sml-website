@@ -8,7 +8,7 @@ export default function GreetingButtonModal({ className }: { className?: ClassNa
     <>
       <Button
         className={twMerge(
-          "min-h-0 w-fit bg-background/80 px-4 py-2 font-medium text-foreground shadow-small backdrop-blur-sm",
+          "min-h-0 w-fit border-1 border-default-200 bg-background/80 px-4 py-2 font-medium text-foreground backdrop-blur-sm",
           className
         )}
         onPress={onOpen}

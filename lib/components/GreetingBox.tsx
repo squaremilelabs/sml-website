@@ -33,12 +33,6 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
           operational excellence — designing & developing tools, technologies, and processes which
           set a new standard for work.
         </p>
-        <p>
-          If you&apos;re looking for a high-touch partner in solving your toughest problems,
-          streamlining your operations, or pushing your ideas from zero to one, I&apos;d love to
-          hear from you.
-        </p>
-        <p>Let&apos;s build together!</p>
       </ScrollShadow>
       <div className="flex items-center space-x-2 p-4">
         <Avatar src="/e-headshot.png" />

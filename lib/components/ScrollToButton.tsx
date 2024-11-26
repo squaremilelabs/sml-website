@@ -25,7 +25,7 @@ export default function ScrollToButton({
 
   return (
     <Button
-      className="sticky bottom-4 right-4 w-32 justify-between self-end bg-background font-bold text-foreground shadow-md lg:bottom-8 lg:right-8"
+      className="sticky bottom-4 right-4 w-32 justify-between self-end bg-background font-bold text-foreground lg:bottom-8 lg:right-8"
       disableRipple
       onPress={handleScroll}
       endContent={<Icon path={mdiArrowDown} className="w-4 animate-pulse" />}

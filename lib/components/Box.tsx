@@ -10,7 +10,10 @@ export default function Box({
 }) {
   return (
     <div
-      className={twMerge("rounded bg-background/80 p-4 shadow-large backdrop-blur-sm", className)}
+      className={twMerge(
+        "rounded border-1 border-default-300 bg-background/80 p-4 backdrop-blur-sm",
+        className
+      )}
     >
       {children}
     </div>

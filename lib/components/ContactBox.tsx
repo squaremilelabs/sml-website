@@ -1,30 +1,15 @@
 "use client"
-
-import { Button, Divider, Input } from "@nextui-org/react"
-import { useState } from "react"
-import { z } from "zod"
-import { useFormik } from "formik"
+import { Avatar, Divider } from "@nextui-org/react"
+import { Send } from "lucide-react"
 import Box from "./Box"
 
 export default function ContactBox() {
-  const formik = useFormik({
-    initialValues: {
-      email: "",
-    },
-    validate: (values) => {
-      const check = z.string().email().safeParse(values.email)
-      if (!check.success) {
-        return { email: "Please enter a valid email" }
-      }
-    },
-    onSubmit: (values) => {
-      console.log(values)
-    },
-  })
-
   return (
     <Box className="w-96 max-w-full space-y-4 p-4">
-      <p className="text-xl font-semibold">Contact</p>
+      <div className="flex items-center space-x-2 text-primary">
+        <Send />
+        <p className="text-xl font-semibold">Contact</p>
+      </div>
       <Divider />
       <div className="text-sm">
         <p className="font-medium">e@squaremilelabs.com</p>

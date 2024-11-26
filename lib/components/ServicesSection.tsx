@@ -1,64 +1,63 @@
-import Icon from "@mdi/react"
-import {
-  mdiApplicationCog,
-  mdiAutoMode,
-  mdiBank,
-  mdiBriefcase,
-  mdiChartArc,
-  mdiChartGantt,
-  mdiHandHeart,
-  mdiRobot,
-  mdiRocketLaunch,
-} from "@mdi/js"
 import { ScrollShadow } from "@nextui-org/react"
+import {
+  AppWindow,
+  BrainCircuit,
+  BriefcaseBusiness,
+  ChartNoAxesCombined,
+  ChartPie,
+  HandHeart,
+  Landmark,
+  PlugZap,
+  Rocket,
+} from "lucide-react"
 import Box from "./Box"
 
 export default function ServicesSection() {
-  const services = [
+  const services: { title: string; Icon: typeof AppWindow; content: string }[] = [
     {
       title: "Internal Software Development",
-      icon: mdiApplicationCog,
+      Icon: AppWindow,
       content: "Custom-built SaaS apps for your business ops.",
     },
 
     {
       title: "APIs & Automations",
-      icon: mdiAutoMode,
+      Icon: PlugZap,
       content: "Backend automations to streamline your tech stack.",
     },
     {
       title: "Data Analytics",
-      icon: mdiChartGantt,
+      Icon: ChartPie,
       content: "Data engineering & report development for business intelligence.",
     },
     {
       title: "AI Implementations",
-      icon: mdiRobot,
+      Icon: BrainCircuit,
       content: "Bespoke AI solutions built with OpenAI.",
     },
     {
       title: "MVP Development",
-      icon: mdiRocketLaunch,
+      Icon: Rocket,
       content: "Speedy design & development for your MVP launch.",
     },
     {
       title: "Productivity Improvement",
-      icon: mdiBriefcase,
+      Icon: BriefcaseBusiness,
       content: "Tool & workflow implementations for operational excellence.",
     },
     {
       title: "Accounting",
-      icon: mdiBank,
+      Icon: Landmark,
       content: "Monthly bookkeeping & day-to-day AP / AR management.",
     },
     {
       title: "FP&A",
-      icon: mdiChartArc,
+      Icon: ChartNoAxesCombined,
       content: "Robust financial models & operating budgets.",
     },
     {
       title: "Digital Customer Experience",
-      icon: mdiHandHeart,
+      Icon: HandHeart,
       content: "Loyalty & gift card programs, customer portals, and CRM platforms.",
     },
   ]
@@ -72,10 +71,12 @@ export default function ServicesSection() {
         return (
           <Box
             key={service.title}
-            className="flex w-full flex-col items-stretch p-0 shadow-medium !backdrop-blur-md"
+            className="flex w-full flex-col items-stretch p-0 !backdrop-blur-md"
           >
             <div className="flex items-center justify-between space-x-4 rounded rounded-b-none border-b border-slate-200 px-4 py-2 dark:border-slate-800">
-              <Icon path={service.icon} className="w-6 shrink-0 text-primary" />
+              <div className="text-primary">
+                <service.Icon />
+              </div>
               <p className="grow font-semibold">{service.title}</p>
             </div>
             <div className="rounded p-4 text-sm">{service.content}</div>
