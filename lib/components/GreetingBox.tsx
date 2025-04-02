@@ -11,10 +11,9 @@ export default function GreetingBox({ className }: { className?: ClassNameValue 
         <p>
           I am a software engineer, business accountant, data wizard, project executor and
           productivity hacker providing{" "}
-          <span className="font-medium text-primary">fractional services</span> (CTO/COO) for an
-          intimate circle of founders, and developing{" "}
-          <span className="font-medium text-primary">open source projects</span> with & for the
-          public.
+          <span className="font-medium text-primary">fractional CXO services</span> for an intimate
+          circle of founders, and developing{" "}
+          <span className="font-medium text-primary">software projects</span> with & for the public.
         </p>
         <p>
           Before founding Square Mile Labs, I co-founded an accounting & technology firm (

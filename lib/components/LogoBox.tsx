@@ -12,7 +12,7 @@ export default function LogoBox({ className }: { className?: ClassNameValue }) {
       />
       <div>
         <h1 className="text-2xl font-semibold lg:text-3xl">Square Mile Labs</h1>
-        <h2 className="text-balance text-xs lg:text-sm">Tech/Ops Consulting & Development</h2>
+        <h2 className="text-balance text-xs lg:text-sm">Tech/Fin/Ops Consulting & Development</h2>
       </div>
     </Box>
   )

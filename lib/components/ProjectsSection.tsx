@@ -13,6 +13,15 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "backboard",
+    imgSrc: "/backboard-logo.png",
+    description: "A productivity system built for the individual contributor.",
+    linkTitle: "Read Intro (Notion)",
+    link: "https://squaremilelabs.notion.site/Intro-to-Backboard-1a9aece5ba118082ae09f3c876fe76a8?pvs=4",
+    statusText: "public beta",
+    statusColor: "warning",
+  },
+  {
     title: "turbo-starter",
     imgSrc:
       "https://user-images.githubusercontent.com/4060187/196936104-5797972c-ab10-4834-bd61-0d1e5f442c9c.png",
@@ -29,7 +38,7 @@ export default function ProjectsSection() {
   return (
     <ScrollShadow
       orientation="vertical"
-      className="grid h-full w-full grid-cols-1 content-start items-stretch justify-stretch justify-items-stretch gap-4 overflow-auto p-4 pb-8 sm:grid-cols-2 lg:pt-8"
+      className="grid h-full w-full grid-cols-1 content-start items-start justify-stretch justify-items-stretch gap-4 overflow-auto p-4 pb-8 sm:grid-cols-2 lg:pt-8"
     >
       {projects.map((project) => (
         <Box key={project.title} className="p-0">
@@ -48,7 +57,7 @@ export default function ProjectsSection() {
               {project.statusText}
             </Chip>
           </div>
-          <div className="border-b border-slate-200 p-2 dark:border-slate-800">
+          <div className="grow border-b border-slate-200 p-2 dark:border-slate-800">
             <p className="text-sm">{project.description}</p>
           </div>
           <div className="flex p-2">
